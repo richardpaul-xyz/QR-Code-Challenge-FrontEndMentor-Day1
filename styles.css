@@ -1,0 +1,51 @@
+body{
+
+  background-color: hsl(212, 45%, 89%);
+
+}
+
+
+.main{
+
+  background-color: hsl(0, 0%, 100%);
+  margin: 10% auto;
+  /* Used this margin to get the whole thing in center */
+  width:18%;
+  padding: 1%;
+  /* Used padding to get the white space beside the image */
+  border-radius: 5%;
+
+}
+
+.qr{
+
+  width:100%;
+  /* Here the width is 100% because it should fit the parent element and should not go beyond that */
+  border-radius: 5%;
+
+}
+
+
+.content{
+
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.p1{
+
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 20px;
+
+}
+
+.p2{
+
+  color: hsl(220, 15%, 55%);
+  font-weight: 400;
+  font-size: 15px;
+
+}
